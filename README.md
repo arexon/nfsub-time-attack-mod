@@ -10,6 +10,7 @@ available.
 - 1000 restarts
 - No cops
 - No opponents
+- Bridges are always down
 - Freeroam teleport to garages, meetups, and any pinned point
 
 The mod avoids changing other properties such as traffic density and lap count
