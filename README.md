@@ -114,5 +114,5 @@ once as one will overwrite the other, rendering one inaccessible.
 | Turntable              | D3_MS0_SR04        |
 | Urban Prowl            | D4_VOL6_SR18       |
 | Violent Nature         | D4_VOL6_SR05       |
-| Wild Thing             | DX_MS01_SR12       |
+| Wild Thing             | D1_MS02_SR12       |
 | Windy City Sprint      | DX_MS01_SR01       |
