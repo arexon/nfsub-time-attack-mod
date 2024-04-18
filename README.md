@@ -5,10 +5,10 @@
 This mod enables time attacking in singleplayer, a feature not previously
 available.
 
-- Every track available in every class
-- First starting position
+- All online street race/rumble events available in singleplayer
+- 1st starting position
 - 1000 restarts
-- No cops
+- No cops in street races/rumble (except for Gauntlets)
 - No opponents
 - Bridges are always down
 - Freeroam teleport to garages, meetups, and any pinned point
@@ -25,94 +25,95 @@ once as one will overwrite the other, rendering one inaccessible.
 
 ## Street Races / Rumble
 
-| Name                   | ID                 |
-| ---------------------- | ------------------ |
-| A1 Day 1               | D4_VOL6_SR07       |
-| Apex Predator (1 lap)  | D1_DRIFT-SR02_VOL2 |
-| Apex Predator (2 laps) | D1_DRIFT-SR02_VOL2 |
-| Bear Witness           | D6_LHD-SR03_VOL2   |
-| Big City Life          | D3_MS04_SR06       |
-| Blindside              | D1_VOL6_SR24       |
-| Block Party            | D5_VOL6_SR19       |
-| Blue Collar            | D6_MS03_SR04       |
-| Buena Vista            | D1_MS0_SR06        |
-| Cage Match             | D7_VOL6_SR22       |
-| City Limits            | D3_MS02_SR11       |
-| Colossus               | DX_MS04_MTHN       |
-| Dark Night             | D4_VOL6_SR04       |
-| Double Clutch          | D3_VOL6_SR26       |
-| Drifter's Delight      | D1_MS02_SR06       |
-| Endgame                | D4_VOL6_SR12       |
-| Factory Fresh          | D5_VOL6_SR21       |
-| Factory Record         | DX_MS0_SR12        |
-| Get High Tonight       | D1_MS03_SR04       |
-| Get High, Get Low      | D1_VOL6_SR06       |
-| Goin' Uptown           | D1_MS0_SR08        |
-| Got It Twisted         | D7_LHD-SR02_VOL2   |
-| Gotta Be Kiddin' Me    | D4_VOL6_SR10       |
-| Gravel Pit             | D6_RUM_DIGSITE     |
-| Hard Eight             | D4_MS01_SR04       |
-| Headliner              | D1_MS04_SR05       |
-| Headspin               | D3_MS04_SR03       |
-| Hot Pursuit            | D2_MS04_SR07       |
-| Hypnotize              | D2_RUM_CONFERENCE  |
-| Industrial Action      | D6_LHD-SR01_VOL2   |
-| Inner City Circuit     | D4_MS01_SR05       |
-| It's Tricky            | D6_MS04_SR04       |
-| Lakeshore Express      | D6_MS01_SR12       |
-| Lakeshore Remix        | D2_MS02_SR05       |
-| Lakeshore Tour         | D3_VOL6_SR25       |
-| Lakeside               | D5_MS03_SR05       |
-| Lead by Speed          | D4_VOL6_SR17       |
-| Let It Whip            | D3_MS02_SR10       |
-| Made You Look          | D1_LHD-SR04_VOL2   |
-| Making Bank            | D1_MS0_SR07        |
-| Millionaire Drive      | D4_MS02_SR04       |
-| Moving On Up           | D5_VOL6_SR13       |
-| No L's Taken           | D3_VOL6_SR01       |
-| Off The Grid           | DX_MS01_SR02       |
-| Old Town Road          | D1_MS01_SR12       |
-| On Rails               | D2_MS03_SR06       |
-| Ostinato               | D5_MS04_SR02       |
-| Pipe Down              | D6_VOL6_SR02       |
-| Power                  | D7_MS01_SR04       |
-| Rapid Transit          | D1_MS03_SR08       |
-| Rat Race               | DX_MS01_SR03       |
-| Redline Racer          | D7_VOL6_SR28       |
-| Ridin' Dirty           | D7_RUM_COALYARD    |
-| Riding The L           | D4_MS01_SR10       |
-| Riverwalk              | D3_MS0_SR01        |
-| Road & Track           | D7_VOL6_SR08       |
-| Road Trippin'          | D1_MS02_SR10_MTHN  |
-| Rock The Boat          | D4_RUM_PIER        |
-| Run This Town          | D4_VOL6_SR27       |
-| Rush Hour              | D4_VOL6_SR20       |
-| Shopping Spree         | D3_MS0_SR11        |
-| Sky's The Limit        | D3_MS01_SR13       |
-| Skyline Sprint         | D2_MS02_SR07       |
-| Slim Chance            | D2_VOL6_SR03       |
-| Smoke Show             | D7_MS03_SR05       |
-| Solar Cycle            | D2_VOL6_SR16       |
-| Straight Fire          | D3_MS0_SR10        |
-| Terrordome             | D6_RUM_TWINDOMES   |
-| Testaroasting          | D1_VOL6_SR09       |
-| Testing Terrain        | D2_VOL6_SR23       |
-| The Big O              | D7_MS04_SR01       |
-| The Boomdocks          | D7_RUM_DOCKS       |
-| The Drain              | D6_MS01_SR13       |
-| The Drop               | D6_MS01_SR1        |
-| The Fishhook           | D5_MS03_SR09       |
-| The God Hour           | D4_MS04_SR08       |
-| The Hustle             | D4_MS0_QV          |
-| The Long Climb         | D1_MS02_SR02       |
-| The OG                 | D7_MS01_SR10       |
-| The Scenic Route       | D5_MS03_SR10       |
-| Tourist Trap           | D3_MS0_SR05        |
-| Track Day B-Side       | D1_VOL6_SR11       |
-| Track Day Special      | D1_MS02_SR03       |
-| Tread Water            | D7_DRIFT-SR01_VOL2 |
-| Turntable              | D3_MS0_SR04        |
-| Urban Prowl            | D4_VOL6_SR18       |
-| Violent Nature         | D4_VOL6_SR05       |
-| Wild Thing             | D1_MS02_SR12       |
-| Windy City Sprint      | DX_MS01_SR01       |
+| Name                  | Classes  | Internal ID          |
+| ----------------------|----------|----------------------|
+| A1 Day 1              | A        | D4_Vol6_SR07         |
+| Apex Predator         | S+       | D1_DRIFT-SR02_Vol2   |
+| Bank B-Side           | S+       | D1_MP_MS0_SR07_Vol4  |
+| Bear Witness          | A+, S+   | D6_LHD-SR03_Vol2     |
+| Big City Life         | S+       | D3_MS04_SR06         |
+| Blindside             | A+       | D1_Vol6_SR24         |
+| Block Party           | A        | D5_Vol6_SR19         |
+| Blue Collar           | A+, S    | D6_MS03_SR04         |
+| Buena Vista           | A, A+    | D1_MS0_SR06          |
+| Cage Match            | A        | D7_Vol6_SR22         |
+| City Limits           | A+       | D3_MS02_SR11         |
+| Colossus              | A+       | D4_MS04_MTHN         |
+| Dark Night            | S+       | D4_Vol6_SR04         |
+| Double Clutch         | A        | D3_Vol6_SR26         |
+| Drifter's Delight     | A+       | D1_MS02_SR06         |
+| Endgame               | S+       | D4_Vol6_SR12         |
+| Everything or Nothing | A        | D1_MP_SR01           |
+| Factory Fresh         | A        | D5_Vol6_SR21         |
+| Factory Record        | A, A+    | D3_MS0_SR12          |
+| Get High, Get Low     | S+       | D1_Vol6_SR06         |
+| Get High Tonight      | S        | D1_MS03_SR04         |
+| Goin' Uptown          | A+       | D1_MS0_SR08          |
+| Got It Twisted        | B        | D7_LHD-SR02_Vol2     |
+| Gotta Be Kiddin' Me   | S+       | D4_Vol6_SR10         |
+| Gravel Pit            | S        | D6_RUM_Digsite       |
+| Hard Eight            | A        | D4_MS01_SR04         |
+| Headliner             | S+       | D1_MS04_SR05         |
+| Headspin              | S+       | D3_MS04_SR03         |
+| Hot Pursuit           | S, S+    | D2_MS04_SR07         |
+| Hypnotize             | A+       | D2_RUM_Conference    |
+| Industrial Action     | B, A, A+ | D6_LHD-SR01_Vol2     |
+| Inner City Circuit    | B        | D4_MS01_SR05         |
+| It's Tricky           | S+       | D6_MS04_SR04         |
+| Lakeshore Express     | A        | D6_MS01_SR12         |
+| Lakeshore Remaster    | S        | D2_MP_MS02_SR05_Vol4 |
+| Lakeshore Remix       | A+, S    | D2_MS02_SR05         |
+| Lakeshore Tour        | A+       | D3_Vol6_SR25         |
+| Lakeside              | S        | D5_MS03_SR05         |
+| Lead by Speed         | S        | D4_Vol6_SR17         |
+| Let it Whip           | A+       | D3_MS02_SR10         |
+| Made You Look         | A+, S+   | D1_LHD-SR04_Vol2     |
+| Making Bank           | A+       | D1_MS0_SR07          |
+| Millionaire Drive     | A        | D4_MS02_SR04         |
+| No L's Taken          | S+       | D3_Vol6_SR01         |
+| Off The Grid          | A, S     | DX_MS01_SR02         |
+| Old Town Road         | A        | D1_MS01_SR12         |
+| On Rails              | S, S+    | D2_MS03_SR06         |
+| Ostinato              | S+       | D5_MS04_SR02         |
+| Pipe Down             | S+       | D6_Vol6_SR02         |
+| Power                 | B, S     | D7_MS01_SR04         |
+| Rapid Transit         | S        | D1_MS03_SR08         |
+| Rat Race              | B        | DX_MS01_SR03         |
+| Redline Racer         | S        | D7_Vol6_SR28         |
+| Ridin' Dirty          | S        | D7_RUM_Coalyard      |
+| Riding the L          | B, S     | D4_MS01_SR10         |
+| Riverwalk             | B, A     | D3_MS0_SR01          |
+| Road & Track          | A        | D7_Vol6_SR08         |
+| Road Trippin'         | A+       | D1_MS02_SR12         |
+| Rock the Boat         | B        | D4_RUM_Pier          |
+| Run This Town         | A+       | D4_Vol6_SR27         |
+| Rush Hour             | S+       | D4_Vol6_SR20         |
+| Shopping Spree        | A+       | D3_MS0_SR11          |
+| Skyline Sprint        | A+       | D2_MS02_SR07         |
+| Sky's the Limit       | S+       | D3_MS01_SR13         |
+| Slim Chance           | S+       | D2_Vol6_SR03         |
+| Smoke Show            | S, S+    | D7_MS03_SR05         |
+| Solar Cycle           | S        | D2_Vol6_SR16         |
+| Straight Fire         | A+       | D3_MS0_SR10          |
+| Terrordome            | A+       | D6_RUM_TwinDomes     |
+| Testaroasting         | A        | D1_Vol6_SR09         |
+| Testing Terrain       | A+       | D2_Vol6_SR23         |
+| The Big O             | S+       | D7_MS04_SR01         |
+| The Boomdocks         | A        | D7_RUM_Docks         |
+| The Drain             | A        | D6_MS01_SR13         |
+| The Drop              | A        | D6_MS01_SR11         |
+| The Fishook           | A+, S    | D5_MS03_SR09         |
+| The God Hour          | S+       | D4_MS04_SR08         |
+| The Hustle            | A, S     | D4_MS0_QV            |
+| The Long Climb        | A+       | D1_MS02_SR02         |
+| The OG                | B, A     | D7_MS01_SR10         |
+| The Scenic Route      | S        | D5_MS03_SR10         |
+| Tourist Trap          | B, A     | D3_MS0_SR05          |
+| Track Day B-Side      | S+       | D1_Vol6_SR11         |
+| Track Day Special     | A+       | D1_MS02_SR03         |
+| Tread Water           | B        | D7_DRIFT-SR01_Vol2   |
+| Turntable             | B        | D3_MS0_SR04          |
+| Urban Prowl           | S        | D4_Vol6_SR18         |
+| Violent Nature        | S+       | D4_Vol6_SR05         |
+| Wild Thing            | A+       | D1_MS02_SR12         |
+| Windy City Sprint     | A        | DX_MS01_SR01         |
