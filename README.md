@@ -110,7 +110,7 @@ once as one will overwrite the other, rendering one inaccessible.
 | The Boomdocks         | A        | D7_RUM_Docks         |
 | The Drain             | A        | D6_MS01_SR13         |
 | The Drop              | A        | D6_MS01_SR11         |
-| The Fishook           | A+, S    | D5_MS03_SR09         |
+| The Fishhook          | A+, S    | D5_MS03_SR09         |
 | The God Hour          | S+       | D4_MS04_SR08         |
 | The Hustle            | A, S     | D4_MS0_QV            |
 | The Last Stretch      | A        | D1_Vol7_SR09         |
