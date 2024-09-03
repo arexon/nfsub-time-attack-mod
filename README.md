@@ -7,7 +7,7 @@ available.
 
 - All online street race/rumble events available in singleplayer
 - 1st starting position
-- 1000 restarts
+- Unlimited restarts
 - No cops in street races/rumble (except for gauntlets)
 - No opponents
 - Bridges are always down
