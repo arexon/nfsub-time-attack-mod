@@ -2,8 +2,7 @@
 
 ## About
 
-This mod enables time attacking in singleplayer, a feature not previously
-available.
+This mod enables time attacking in singleplayer.
 
 - All online street race/rumble events available in singleplayer
 - 1st starting position
