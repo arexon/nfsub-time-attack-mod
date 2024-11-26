@@ -63,29 +63,38 @@ once as one will overwrite the other, rendering one inaccessible.
 | Hometown              | S        | D6_VOL8_SR05         |
 | Hot Pursuit           | S, S+    | D2_MS04_SR07         |
 | Hypnotize             | A+       | D2_RUM_Conference    |
+| I Rock, I Roll        | A+       | D4_Vol9_SR02_BMWM3   |
 | Industrial Action     | B, A, A+ | D6_LHD-SR01_Vol2     |
 | Inner City Circuit    | B        | D4_MS01_SR05         |
 | It's Tricky           | S+       | D6_MS04_SR04         |
+| Kaizen                | S+       | D7_Vol9_SR15         |
+| Kick It Up            | A+       | D4_Vol9_SR01_BMWM3   |
 | Lakeshore Express     | A        | D6_MS01_SR12         |
 | Lakeshore Remaster    | S        | D2_MP_MS02_SR05_Vol4 |
 | Lakeshore Remix       | A+, S    | D2_MS02_SR05         |
 | Lakeshore Speedway    | A        | D5_Vol7_SR07         |
 | Lakeshore Tour        | A+       | D3_Vol6_SR25         |
 | Lakeside              | S        | D5_MS03_SR05         |
+| Layin' Low            | A+       | D1_Vol9_SR05_BMWM3   |
 | Lead by Speed         | S        | D4_Vol6_SR17         |
 | Let it Whip           | A+       | D3_MS02_SR10         |
 | Lightning vs Thunder  | S+       | D7_VOL8_SR12         |
+| Lightning vs Thunder  | S+       | D7_Vol8_SR12         |
+| Lucky Break           | A+       | D4_Vol9_SR04_BMWM3   |
 | Mad Dash              | A        | D4_Vol7_SR06         |
 | Made You Look         | A+, S+   | D1_LHD-SR04_Vol2     |
 | Making Bank           | A+       | D1_MS0_SR07          |
 | Memory Lane           | S        | D2_VOL8_SR04         |
 | Millionaire Drive     | A        | D4_MS02_SR04         |
 | Moving On Up          | A        | D5_Vol7_SR01         |
+| My Hood               | A+       | D6_Vol9_SR08_BMWM3   |
 | No L's Taken          | S+       | D3_Vol6_SR01         |
 | No Place Like Home    | S        | D2_VOL8_SR09         |
+| Number 1 Spot         | A+       | D4_Vol9_SR03_BMWM3   |
 | Oakville              | S        | D5_VOL8_SR01         |
 | Off The Grid          | A, S     | DX_MS01_SR02         |
 | Old Town Road         | A        | D1_MS01_SR12         |
+| Olympic Dash          | A+       | D5_Vol8_SR11_BMWM3   |
 | Olympic Sprint        | A        | D6_Vol7_SR02         |
 | On Rails              | S, S+    | D2_MS03_SR06         |
 | Ostinato              | S+       | D5_MS04_SR02         |
@@ -93,6 +102,7 @@ once as one will overwrite the other, rendering one inaccessible.
 | Power                 | B, S     | D7_MS01_SR04         |
 | Rapid Transit         | S        | D1_MS03_SR08         |
 | Rat Race              | B        | DX_MS01_SR03         |
+| Razor's Edge          | A+       | D4_Vol9_SR06_BMWM3   |
 | Redline Racer         | S        | D7_Vol6_SR28         |
 | Ridin' Dirty          | S        | D7_RUM_Coalyard      |
 | Riding the L          | B, S     | D4_MS01_SR10         |
