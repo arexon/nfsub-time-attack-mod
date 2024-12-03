@@ -39,6 +39,7 @@ once as one will overwrite the other, rendering one inaccessible.
 | Buena Vista           | A, A+    | D1_MS0_SR06          |
 | Cage Match            | A        | D7_Vol6_SR22         |
 | City Limits           | A+       | D3_MS02_SR11         |
+| Cliff Hanger          | S+       | D4_Vol9_S07          |
 | Colossus              | A+       | D4_MS04_MTHN         |
 | Country Woods         | S        | D1_VOL8_SR06         |
 | Cross-Town Hustle     | A        | D4_Vol7_SR04         |
@@ -56,7 +57,7 @@ once as one will overwrite the other, rendering one inaccessible.
 | Got It Twisted        | B        | D7_LHD-SR02_Vol2     |
 | Gotta Be Kiddin' Me   | S+       | D4_Vol6_SR10         |
 | Gravel Pit            | S        | D6_RUM_Digsite       |
-| Guess Who's Back      | A        | D4_Vol7_SR08         |
+| Guess Who's Back      | A, S+    | D4_Vol7_SR08         |
 | Hard Eight            | A        | D4_MS01_SR04         |
 | Headliner             | S+       | D1_MS04_SR05         |
 | Headspin              | S+       | D3_MS04_SR03         |
@@ -72,14 +73,14 @@ once as one will overwrite the other, rendering one inaccessible.
 | Lakeshore Express     | A        | D6_MS01_SR12         |
 | Lakeshore Remaster    | S        | D2_MP_MS02_SR05_Vol4 |
 | Lakeshore Remix       | A+, S    | D2_MS02_SR05         |
-| Lakeshore Speedway    | A        | D5_Vol7_SR07         |
+| Lakeshore Speedway    | A, S+    | D5_Vol7_SR07         |
 | Lakeshore Tour        | A+       | D3_Vol6_SR25         |
 | Lakeside              | S        | D5_MS03_SR05         |
 | Layin' Low            | A+       | D1_Vol9_SR05_BMWM3   |
 | Lead by Speed         | S        | D4_Vol6_SR17         |
 | Let it Whip           | A+       | D3_MS02_SR10         |
-| Lightning vs Thunder  | S+       | D7_VOL8_SR12         |
 | Lightning vs Thunder  | S+       | D7_Vol8_SR12         |
+| Lightning vs Thunder  | S+       | D7_VOL8_SR12         |
 | Lucky Break           | A+       | D4_Vol9_SR04_BMWM3   |
 | Mad Dash              | A        | D4_Vol7_SR06         |
 | Made You Look         | A+, S+   | D1_LHD-SR04_Vol2     |
@@ -88,9 +89,10 @@ once as one will overwrite the other, rendering one inaccessible.
 | Millionaire Drive     | A        | D4_MS02_SR04         |
 | Moving On Up          | A        | D5_Vol7_SR01         |
 | My Hood               | A+       | D6_Vol9_SR08_BMWM3   |
+| Narrow Escape         | S+       | D4_Vol9_S16          |
 | No L's Taken          | S+       | D3_Vol6_SR01         |
 | No Place Like Home    | S        | D2_VOL8_SR09         |
-| Number 1 Spot         | A+       | D4_Vol9_SR03_BMWM3   |
+| Number 1 Spot         | A+, S+   | D4_Vol9_SR03_BMWM3   |
 | Oakville              | S        | D5_VOL8_SR01         |
 | Off The Grid          | A, S     | DX_MS01_SR02         |
 | Old Town Road         | A        | D1_MS01_SR12         |
@@ -105,7 +107,7 @@ once as one will overwrite the other, rendering one inaccessible.
 | Razor's Edge          | A+       | D4_Vol9_SR06_BMWM3   |
 | Redline Racer         | S        | D7_Vol6_SR28         |
 | Ridin' Dirty          | S        | D7_RUM_Coalyard      |
-| Riding the L          | B, S     | D4_MS01_SR10         |
+| Riding the L          | B, S, S+ | D4_MS01_SR10         |
 | Riverwalk             | B, A     | D3_MS0_SR01          |
 | Road & Track          | A        | D7_Vol6_SR08         |
 | Road Trippin'         | A+       | D1_MS02_SR10         |
@@ -119,7 +121,7 @@ once as one will overwrite the other, rendering one inaccessible.
 | Skyline Sprint        | A+       | D2_MS02_SR07         |
 | Slim Chance           | S+       | D2_Vol6_SR03         |
 | Smoke Show            | S, S+    | D7_MS03_SR05         |
-| Solar Cycle           | S        | D2_Vol6_SR16         |
+| Solar Cycle           | S, S+    | D2_Vol6_SR16         |
 | Straight Fire         | A+       | D3_MS0_SR10          |
 | Terrordome            | A+       | D6_RUM_TwinDomes     |
 | Testaroasting         | A        | D1_Vol6_SR09         |
@@ -140,6 +142,8 @@ once as one will overwrite the other, rendering one inaccessible.
 | Track Day B-Side      | S+       | D1_Vol6_SR11         |
 | Track Day Special     | A+       | D1_MS02_SR03         |
 | Tread Water           | B        | D7_DRIFT-SR01_Vol2   |
+| Trials By Fire        | S+       | D4_Vol9_S17          |
+| Triple Jump           | S+       | D4_Vol9_S18          |
 | Turntable             | B        | D3_MS0_SR04          |
 | Upfront               | S        | D1_VOL8_SR07         |
 | Urban Prowl           | S        | D4_Vol6_SR18         |
